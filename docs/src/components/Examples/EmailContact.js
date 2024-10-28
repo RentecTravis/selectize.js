@@ -75,7 +75,7 @@ export default function EmailContact() {
         if (match) {
           return {
             email: match[2],
-            name: $.trim(match[1]),
+            name: match[1].trim(),
           };
         }
         alert("Invalid email address.");
@@ -168,7 +168,7 @@ $("#select-to").selectize({
     if (match) {
         return {
         email: match[2],
-        name: $.trim(match[1]),
+        name: match[1].trim(),
         };
     }
     alert("Invalid email address.");
