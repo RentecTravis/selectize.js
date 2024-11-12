@@ -67,7 +67,7 @@
     "sass": "1.58.1"
   },
   "peerDependencies": {
-    "jquery": "^1.7.0 || ^2 || ^3 || ^4",
+    "jquery": "^1.7.0 || ^2 || ^3 || 4.0.0-beta.2",
     "jquery-ui": "^1.13.2"
   },
   "peerDependenciesMeta": {
